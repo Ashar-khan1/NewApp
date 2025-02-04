@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Apex Mk2 Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Apex Mk2 Regular'), url('ApexMk2-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Apex Mk2 Light Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Apex Mk2 Light Condensed'), url('ApexMk2-LightCondensed.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Apex Mk2 Bold Extended';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Apex Mk2 Bold Extended'), url('ApexMk2-BoldExtended.woff') format('woff');
+  }
+
+body{
+  /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+  background: linear-gradient(90deg, white 0%, #f3d3e3 60%, white 100%)
+/* background-color: black; */
+}
+
+
+#btn-2{
+  border: 1.8px solid rgb(255, 107, 107);
+  color: rgb(255, 69, 69);
+};
+
+#context{
+  margin-left: k;
+}
+
+h1,h2,h3,p {
+  font-family: 'Apex Mk2 Bold Extended';
+
+}
+/* boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.15)", */
