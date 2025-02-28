@@ -58,7 +58,7 @@ const AuctionGrid = () => {
               In Stock <span className="text-gray-500">7</span> 
               </button>
               <button className=" p-2 absolute bottom-2 right-1 bg-white text-black text-xs px-3 py-1 rounded-lg flex gap-1">
-              Price:  <img src="public/group.png" className="bg-black rounded-full w-3 h-3 mt-1" /> <span className="text-gray-500 "> 142.02</span>
+              Price:  <img src="./group.png" className="bg-black rounded-full w-3 h-3 mt-1" /> <span className="text-gray-500 "> 142.02</span>
               </button>
               {/* Countdown */}
               {/* <h1 className="relative top-9 bg-white text-black text-s px-5 py-1 rounded-lg"> */}

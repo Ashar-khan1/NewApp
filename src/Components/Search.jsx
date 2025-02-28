@@ -25,7 +25,7 @@ function Search() {
       <footer className="w-full bg-red-500 text-white py-10 rounded-t-lg "
       > 
       <div
-      style={{ backgroundImage: '/public/Fimg.png', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+      style={{ backgroundImage: './Fimg.png', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8">

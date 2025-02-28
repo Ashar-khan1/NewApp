@@ -2,10 +2,10 @@ import React from "react";
 
 const AuctionSection = () => {
   const items = [
-    { id: 0, image: "public/Auction/A1.png", alt: "Auction Item 1", size: "large" },
-    { id: 1, image: "public/Auction/A2.png", alt: "Auction Item 2", size: "medium1" },
-    { id: 2, image: "public/Auction/A3.png", alt: "Auction Item 3", size: "medium" },
-    { id: 3, image: "public/Auction/A4.jfif", alt: "Auction Item 4", size: "large2" },
+    { id: 0, image: "./Auction/A1.png", alt: "Auction Item 1", size: "large" },
+    { id: 1, image: "./Auction/A2.png", alt: "Auction Item 2", size: "medium1" },
+    { id: 2, image: "./Auction/A3.png", alt: "Auction Item 3", size: "medium" },
+    { id: 3, image: "./Auction/A4.jfif", alt: "Auction Item 4", size: "large2" },
   ];
   
 

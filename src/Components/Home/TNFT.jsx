@@ -265,7 +265,7 @@ const FeaturedCollection = () => {
 
   return (
     <div className=" py-8 px-4 sm:px-6 lg:px-8 flex flex-col justify-center mx-auto max-w-6xl">
-      <h2 className=" text-center text-2xl font-bold sm:text-left sm:text-4xl mb-6 md:text-[64px] uppercase ">
+      <h2 className=" text-center text-2xl font-bold sm:text-left sm:text-4xl mb-6 md:text-[400%] uppercase ">
         Trending NFT’s
       </h2>
 

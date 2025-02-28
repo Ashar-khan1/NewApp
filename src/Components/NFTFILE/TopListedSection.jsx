@@ -136,18 +136,18 @@ const FilterMenu = () => {
 
 const AuctionGrid = () => {
   const cards = [
-    { id: 1, image: "public/Auction/A1.png", name: "STELLA NOVA" },
-    { id: 3, image: "public/Top/A3.png", name: "STELLA NOVA" },
-    { id: 2, image: "public/Auction/A2.png", name: "STELLA NOVA" },
-    { id: 4, image: "public/Auction/A4.jfif", name: "STELLA NOVA" },
-    { id: 5, image: "public/Top/A1.png", name: "STELLA NOVA" },
-    { id: 6, image: "public/Top/A3.png", name: "STELLA NOVA" },
-    { id: 7, image: "public/Top/A4.png", name: "STELLA NOVA" },
-    { id: 8, image: "public/Top/A5.png", name: "STELLA NOVA" },
-    { id: 9, image: "public/Top/A6.png", name: "STELLA NOVA" },
-    { id: 10, image: "public/Top/A8.png", name: "STELLA NOVA" },
-    { id: 11, image: "public/Top/A4.png", name: "STELLA NOVA" },
-    { id: 12, image: "public/Top/A7.jfif", name: "STELLA NOVA" },
+    { id: 1, image: "./Auction/A1.png", name: "STELLA NOVA" },
+    { id: 3, image: "./Top/A3.png", name: "STELLA NOVA" },
+    { id: 2, image: "./Auction/A2.png", name: "STELLA NOVA" },
+    { id: 4, image: "./Auction/A4.jfif", name: "STELLA NOVA" },
+    { id: 5, image: "./Top/A1.png", name: "STELLA NOVA" },
+    { id: 6, image: "./Top/A3.png", name: "STELLA NOVA" },
+    { id: 7, image: "./Top/A4.png", name: "STELLA NOVA" },
+    { id: 8, image: "./Top/A5.png", name: "STELLA NOVA" },
+    { id: 9, image: "./Top/A6.png", name: "STELLA NOVA" },
+    { id: 10, image: "./Top/A8.png", name: "STELLA NOVA" },
+    { id: 11, image: "./Top/A4.png", name: "STELLA NOVA" },
+    { id: 12, image: "./Top/A7.jfif", name: "STELLA NOVA" },
   ];
 
   return (
@@ -203,7 +203,7 @@ const AuctionGrid = () => {
                   <button className="p-2 absolute bottom-2 right-1 bg-white text-black text-xs px-3 py-1 rounded-lg flex gap-1">
                     Price:{" "}
                     <img
-                      src="public/group.png"
+                      src="./group.png"
                       className="bg-black rounded-full w-3 h-3 mt-1"
                     />{" "}
                     <span className="text-gray-500">142.02</span>

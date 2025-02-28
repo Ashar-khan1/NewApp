@@ -186,7 +186,9 @@ const FeaturedCollection = () => {
            <img
              src={item.image}
              alt={item.name}
-             className="w-full h-auto rounded object-cover"
+            className="w-full h-auto rounded object-cover"
+
+            //  className="w-[292px] h-[314px] rounded object-cover"
            />
          </div>
          <div className="flex justify-between items-center w-full relative top-6 md:px-[7px] md:text-sm ">

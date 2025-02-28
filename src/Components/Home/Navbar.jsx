@@ -282,7 +282,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center mb-6">
               <img
-                src="src/assets/logo.png"
+                src="./src/assets/logo.png"
                 alt="Fry Networks Logo"
                 className="w-16 h-12 mr-2"
               />
